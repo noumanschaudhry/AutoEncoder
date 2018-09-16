@@ -3,6 +3,7 @@
 This repo is a basic implementation of four layered autoencoder ,Where both parts encoder and decoder has 2 layers each.
 
 Notebook starts by loading data into the dataframe and check how balanced the data is 
+
 Fraud Transactions: 242
 Normal Transaction: 113681
 
