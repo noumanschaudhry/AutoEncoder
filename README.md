@@ -2,6 +2,8 @@
 
 AutoEncoder are really usefull in many applications, in this repo their appication in anomaly detection is put to the test. As its known AutoEncoders are really good way to learn pattern that made up the data , this quality of Autoencoders make them really usefull in anomaly detection like in case of Fraud-Detection where data is highly unbalanced. 
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Autoencoder_structure.png">
+
 ## How AutoEncoders are used for anomaly detection
 
 AutoEncoders are made up of two parts an Encoder and a Decoder. Encoder part takes the input and represent it in a dense manner usually called as Dense Representation and Decoder part does the opposite. Which means the input and the output of an autoencoder is the same, and the error function that steers the trainig process is Reconstruction error which compares the input and the output of the AutoEncoder.
